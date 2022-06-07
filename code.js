@@ -37,7 +37,7 @@ function clickNumberButton(){
         {
            throw 'Informe um valor'
         }
-        
+        number = Number(number)
         if (number <= 5 || number >= 10 )
         {
             throw 'Informe um valor maior que 5 e menor que 10'
